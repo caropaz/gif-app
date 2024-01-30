@@ -1,8 +1,7 @@
 
 export const GifItem = ({title,url}) => {
   return (
-    <div>
-        <p>{title}</p>
+    <div className="card">
         <img src={url} alt={title} />
     </div>
   )
